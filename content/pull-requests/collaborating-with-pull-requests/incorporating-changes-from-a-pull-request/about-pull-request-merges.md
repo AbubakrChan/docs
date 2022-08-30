@@ -66,7 +66,7 @@ You aren't able to automatically rebase and merge on {% data variables.product.p
 - Rebasing the commits is considered "unsafe," such as when a rebase is possible without merge conflicts but would produce a different result than a merge would.
 
 If you still want to rebase the commits but can't rebase and merge automatically on {% data variables.product.product_location %} you must:
-- Rebase the topic branch (or head branch) onto the base branch locally on the command line
+- Rebase the topic branch (or head branch) to the base branch locally on the command line
 - [Resolve any merge conflicts on the command line](/articles/resolving-a-merge-conflict-using-the-command-line/).
 - Force-push the rebased commits to the pull request's topic branch (or remote head branch).
 
